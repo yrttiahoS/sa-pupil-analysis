@@ -1,5 +1,7 @@
 # sa-pupil-analysis
 Matlab code and SPSS syntax for the analysis of pupil data presented in article: "Pupillary responses to infant facial expressions". Data is available at Zenodo, Yrttiaho, Santeri et al.. (2016). Dateset for article: Pupillary responses to infant facial expressions. Zenodo. 10.5281/zenodo.45989
+
+
 Pupil analysis documentation
 
 This documentation lists all steps, data folders, and files needed for the analysis of pupil data. In scripts/syntax please ensure that the filepaths match your local directories/folders. To this end, set working directory in SPSS with command ‘cd’ to the folder containing your pupil analysis files:
@@ -12,7 +14,10 @@ Active viewing experiment
 
 Anonymized data file are in folder: ‘SA gazefiles anonymized A’
 
+
 Analysis steps for active viewing experiment, pupil constriction
+
+
 1. run script: pupilAnalysis_Eprime3.m
 	*select data folder: ‘SA gazefiles anonymized A’
 	*script produces output: EprimeConstriction.xls
@@ -21,7 +26,10 @@ Analysis steps for active viewing experiment, pupil constriction
 3. create new vars to Eprime_constr_repeated.sav with syntax: Create vars repeated constr.sps
 4. run statistical analysis with syntax: Constr stat analysis_Eprime.sps
 
+
 Analysis steps for active viewing experiment, pupil dilation
+
+
 1. run script: pupilAnalysis_Eprime2.m
 	*select data folder: ‘SA gazefiles anonymized A’
 	*script produces output: EprimeDilation.xls
@@ -29,12 +37,14 @@ Analysis steps for active viewing experiment, pupil dilation
 *syntax produces files: Eprime_dilation_accept.sav, Eprime_dilation_aggr.sav, Eprime_dilat_repeated.sav
 3. create new vars to Eprime_dilat_repeated.sav with syntax: Create vars repeated dilat.sps
 4. run statistical analysis with syntax: Dilat stat analysis_Eprime.sps
- 
+
+
 Passive viewing experiment	
 
 Anonymized data file are in folder: ‘SA gazefiles anonymized B’
 
 Analysis steps for passive viewing experiment, pupil constriction
+
 
 1. run script: pupilAnalysis_Matlab.m
 	*select data folder: ‘SA gazefiles anonymized B’
@@ -50,6 +60,7 @@ Analysis steps for passive viewing experiment, pupil constriction
 
 
 Analysis steps for passive viewing condition, pupil dilation
+
 
 1. run script: pupilAnalysis_Matlab2.m
 
@@ -77,6 +88,7 @@ Comparison between the passive and active viewing experiments
 
 
 Control experiment
+
 
 1. run scripts to analyze gaze data from folders:
 
