@@ -22,7 +22,7 @@ Analysis steps for active viewing experiment, pupil constriction
 	*select data folder: ‘SA gazefiles anonymized A’
 	*script produces output: EprimeConstriction.xls
 2.  import EprimeConstriction.xls to spss using syntax: Restructure data_constr_Eprime.sps
-*syntax produces files: Eprime_constr_accept.sav, Eprime_constr_aggr.sav, Eprime_constr_repeated.sav
+	*syntax produces files: Eprime_constr_accept.sav, Eprime_constr_aggr.sav, Eprime_constr_repeated.sav
 3. create new vars to Eprime_constr_repeated.sav with syntax: Create vars repeated constr.sps
 4. run statistical analysis with syntax: Constr stat analysis_Eprime.sps
 
@@ -52,7 +52,7 @@ Analysis steps for passive viewing experiment, pupil constriction
 
 2.  import MatlabConstriction.xls to spss using syntax: Restructure data_constr_Matlab.sps
 
-*syntax produces files: Matlab_constr_accept.sav, Matlab_constr_aggr.sav, Matlab_constr_repeated.sav
+	*syntax produces files: Matlab_constr_accept.sav, Matlab_constr_aggr.sav, Matlab_constr_repeated.sav
 
 3. create new vars to Matlab_constr_repeated.sav with syntax: Create vars repeated constr.sps
 
@@ -100,7 +100,7 @@ Control experiment
 
 	1.4 script/function: pupilAnalysisCtrlNoise2.m,	data folder: SA anonCTRL noise
 
-*scripts produce outputs: CtrlConstrictionFace.xls, CtrlDilationFace.xls, CtrlConstrictionNoise.xls, and CtrlDilationNoise.xls
+		*scripts produce outputs: CtrlConstrictionFace.xls, CtrlDilationFace.xls, CtrlConstrictionNoise.xls, and CtrlDilationNoise.xls
 
 2. Import to SPSS and restructure data using syntax files:
 
