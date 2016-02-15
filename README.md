@@ -70,7 +70,7 @@ Analysis steps for passive viewing condition, pupil dilation
 
 2.  import MatlabDilation.xls to spss using syntax: Restructure data_dilat_Matlab.sps
 
-*syntax produces files: Matlab_dilation_accept.sav, Matlab_dilation_aggr.sav, Matlab_dilat_repeated.sav
+	*syntax produces files: Matlab_dilation_accept.sav, Matlab_dilation_aggr.sav, Matlab_dilat_repeated.sav
 
 
 3. create new vars to Matlab_dilat_repeated.sav with syntax: Create vars repeated dilat.sps
