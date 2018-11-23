@@ -7,7 +7,7 @@ function pupilAnalysis_Eprime2
 % Modified: 
 
 %add path to igazelib library (use the latest version)
-addpath(genpath([pwd '\' 'igazelib081b']));	
+addpath(genpath('C:\Users\infant\Documents\MATLAB\igazelib\igazelib081'))	
 
 %% parameters here
 datatype = 'capetown';%'capetownMATLAB'; %'tet300'; %'capetown';% 'capetownMATLAB'; % %boston, tampere, att
@@ -94,7 +94,7 @@ for j=1:length(files)% ffilt'%  1:length(files) %ffilt'% 1:2%[13 30 ] %
         j
         files{j}
         [DATA, HEADERS] = loadGazeFile(files{j});
-        stimCodes = load('stimulus_codes.mat');
+        %stimCodes = load('stimulus_codes.mat');
     elseif strcmp(datatype, 'capetownMATLAB')
         [DATA, HEADERS] = loadGazeFileHeader(files{j}, [folder 'headers.txt']);
         [fol nam ext] = fileparts(files{j}); [nam ext]

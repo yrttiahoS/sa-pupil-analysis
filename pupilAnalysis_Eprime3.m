@@ -94,7 +94,7 @@ for j=1:length(files)% ffilt'%  1:length(files) %ffilt'% 1:2%[13 30 ] %
         j
         files{j}
         [DATA, HEADERS] = loadGazeFile(files{j});
-        stimCodes = load('stimulus_codes.mat');
+        %stimCodes = load('stimulus_codes.mat');
     elseif strcmp(datatype, 'capetownMATLAB')
         [DATA, HEADERS] = loadGazeFileHeader(files{j}, [folder 'headers.txt']);
         [fol nam ext] = fileparts(files{j}); [nam ext]
